@@ -37,9 +37,9 @@ class Bike extends Vehicle {
 }
 public class VehicleDemo {
     public static void main(String[] args) {
-        Vehicle car = new Car (100.0, 2.0); 
+        Vehicle car = new Car (200.0, 2.0); 
 
-        Vehicle bike = new Bike(50.0, 1.5); 
+        Vehicle bike = new Bike(20.0, 1.5); 
 
         System.out.println("Car Speed: " + car.calculateSpeed() + " units/time");
         System.out.println("Car Velocity: " + car.calculateVelocity() + " units/time");
@@ -47,4 +47,5 @@ public class VehicleDemo {
         System.out.println("Bike Speed: " + bike.calculateSpeed() + " units/time");
         System.out.println("Bike Velocity: " + bike.calculateVelocity() + " units/time");
     }
+
 }
